@@ -2,7 +2,7 @@ const display=document.querySelector("input"),
  button=document.querySelector("button"),
  copyBtn=document.querySelector("span.far"),
  copyActive=document.querySelector("span.fas");
-let chars ='あいうえおかきくけこさしすせそ';
+let chars ='あいうえおかきくけこさしすせそたちつてとなにぬねのはひ不へほ';
  button.onclick=()=>{
    let i,
    randomPassword="";
