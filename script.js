@@ -2,7 +2,7 @@ const display=document.querySelector("input"),
  button=document.querySelector("button"),
  copyBtn=document.querySelector("span.far"),
  copyActive=document.querySelector("span.fas");
-let chars ='あいうえおかきくけこさしすせそたちつてとなにぬねのはひ不へほ';
+let chars ='あいうえおかきくけこさしすせそたちつてとなにぬねのはひ不へほまみむめもやゆよらりるれろわをん';
  button.onclick=()=>{
    let i,
    randomPassword="";
@@ -34,5 +34,6 @@ snowFall.snow(document.querySelector('.snow'), {
 	maxSize: 10,
 	round: true,
 	flakeCount: 30,
-	flakeColor: '#fc6400'
+	flakeColor: '#00FFFF'
+  
 });
