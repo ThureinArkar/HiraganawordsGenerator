@@ -40,7 +40,7 @@ div.alert
 
 .container
 {
-  width: 35%;
+  width: 100%;
   background: rgba(0,0,0,0.5);
   border: 1px solid #444;
   border-radius: 5px;
